@@ -113,7 +113,7 @@ function resultado() {
         cont++;
     }
 
-    return aux;
+    return aux2;
 }
 
 function convert_resultado() {
