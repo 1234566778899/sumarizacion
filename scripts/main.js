@@ -113,7 +113,7 @@ function resultado() {
         cont++;
     }
 
-    return aux2;
+    return { data: aux2, prefijo: cont }
 }
 
 function convert_resultado() {
