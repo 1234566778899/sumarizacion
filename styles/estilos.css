@@ -1,0 +1,11 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+}
+.inicio{
+    display: flex;
+}
+.inicio input{
+    margin: 5px;
+    text-align: center;
+}
