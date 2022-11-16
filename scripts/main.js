@@ -182,6 +182,8 @@ function obtener_mascara() {
     p4 = convert_decimal(getCadena(arr, 24, 32));
     combi = p1 + '.' + p2 + '.' + p3 + '.' + p4;
     $('.result-mascara').append(`<span> = ${combi}</span>`);
+    wcard = (255 - p1) + '.' + (255 - p2) + '.' + (255 - p3) + '.' + (255 - p4);
+    $('.result-mascara').append(`<br><span>Wildcard = ${wcard}</span>`);
 }
 
 
